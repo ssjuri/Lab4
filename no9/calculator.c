@@ -1,7 +1,7 @@
 #include <gtk/gtk.h>
 #include <stdlib.h>
 
-// Callback function for the buttons
+
 void on_operation_clicked(GtkWidget *widget, gpointer data) {
     const char *operation = (const char *)data;
 
